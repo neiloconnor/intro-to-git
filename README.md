@@ -30,7 +30,7 @@ git config --local user.email "your email address"
 
 ## Tracking changes to files
 1. View recent commits `git log`
-2. View the changes of a particular commit `git show ...`
+2. View the changes of a particular commit with `git show` and the ID of the commit
 2. Check what files have changed since last commit `git status`
 3. What are the changes in those files `git diff`
 4. Add changed files to `staging` with `git add filename`
@@ -41,5 +41,8 @@ git config --local user.email "your email address"
 2. Push your local changes on a particular branch to the remote repository `git push origin master`
 
 ## Collaboration workflow
-1. Most common is [Gitflow](https://guides.github.com/introduction/flow/)
-2.  
+1. Most common strategy is [Gitflow](https://datasift.github.io/gitflow/IntroducingGitFlow.html)
+2. `master` branch is the one that gets deployed to production
+3. A `develop` branch is created to hold peer-reviewed code waiting to be deployed
+4. New branches are created to work on particular features (called feature branches)
+5. Code in feature branches is *peer reviewed* in a *pull request* and *merged* into the develop branch
