@@ -46,3 +46,6 @@ git config --local user.email "your email address"
 3. A `develop` branch is created to hold peer-reviewed code waiting to be deployed
 4. New branches are created to work on particular features (called feature branches)
 5. Code in feature branches is *peer reviewed* in a *pull request* and *merged* into the develop branch
+
+## Pull requests
+1. Good article on [Pull Requests](https://blog.codacy.com/how-to-code-review-in-a-pull-request/)
