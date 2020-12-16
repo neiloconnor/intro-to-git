@@ -7,11 +7,14 @@ Every repository should have a README file: it explains what the repository is f
 * [Styling with Markdown](https://guides.github.com/features/mastering-markdown/)
 
 ## Key concepts in Git
-1. Version control
+1. Versions
+![./diagrams/version_history.png](./diagrams/version_history.png)
+
 2. Repository
-3. Change / Commit
-4. Branch / Tip / Head
-5. Local / Remote(origin)
+![./diagrams/repos.png](./diagrams/repos.png)
+
+3. Git commands
+![./diagrams/basic_commands.png](./diagrams/basic_commands.png)
 
 More information [here](https://franiglesias.github.io/git-key-concepts/) and [here](https://guides.github.com/introduction/git-handbook/)
 
@@ -41,7 +44,7 @@ git config --local user.email "your email address"
 2. Push your local changes on a particular branch to the remote repository `git push origin master`
 
 ## Collaboration workflow
-1. Most common strategy is [Gitflow](https://datasift.github.io/gitflow/IntroducingGitFlow.html)
+1. One common strategy is [Gitflow](https://datasift.github.io/gitflow/IntroducingGitFlow.html)
 2. `master` branch is the one that gets deployed to production
 3. A `develop` branch is created to hold peer-reviewed code waiting to be deployed
 4. New branches are created to work on particular features (called feature branches)
