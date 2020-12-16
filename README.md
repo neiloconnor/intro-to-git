@@ -7,13 +7,13 @@ Every repository should have a README file: it explains what the repository is f
 * [Styling with Markdown](https://guides.github.com/features/mastering-markdown/)
 
 ## Key concepts in Git
-1. Versions
+### Versions
 ![./diagrams/version_history.png](./diagrams/version_history.png)
 
-2. Repository
+### Repository
 ![./diagrams/repos.png](./diagrams/repos.png)
 
-3. Git commands
+### Git commands
 ![./diagrams/basic_commands.png](./diagrams/basic_commands.png)
 
 More information [here](https://franiglesias.github.io/git-key-concepts/) and [here](https://guides.github.com/introduction/git-handbook/)
